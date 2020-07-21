@@ -1,18 +1,24 @@
+/*---Import Google Fonts---*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+
+/*-------------------------*/
 body {
 	font-family: Open Sans;
 	margin: 0;
 }
-
 body img {
 	width: 100px;
 	border-radius: 50%;
 	height: 100px;
 }
-
 .container {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	flex-direction: column;
 	height: 100vh;
+}
+.container h1 {
+	font-weight: lighter;
+	margin-left: 25px;
 }
